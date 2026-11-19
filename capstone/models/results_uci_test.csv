@@ -1,0 +1,4 @@
+,accuracy,precision,recall,F1
+Baseline (always ham),0.876,0.0,0.0,0.0
+A – TF-IDF words,0.976,0.876,0.938,0.906
+B – TF-IDF characters,0.99,0.961,0.961,0.961

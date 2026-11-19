@@ -1,0 +1,5 @@
+model,test set,accuracy,precision,recall,F1,ROC AUC
+A – TF-IDF words,"UCI test (old, English)",0.984,0.918,0.961,0.939,0.996
+A – TF-IDF words,"Real world (2011–2026, FR+EN)",0.69,0.922,0.511,0.657,0.892
+B – TF-IDF characters,"UCI test (old, English)",0.989,0.947,0.969,0.958,0.997
+B – TF-IDF characters,"Real world (2011–2026, FR+EN)",0.682,0.957,0.475,0.635,0.947

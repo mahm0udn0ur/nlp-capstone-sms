@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+gradio
+sentence-transformers   # only for model C (embeddings)
+datasets                # optional: notebook 01 loads UCI from Hugging Face, else uses data/raw/
+jupyter
