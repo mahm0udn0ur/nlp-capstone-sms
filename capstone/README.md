@@ -1,19 +1,6 @@
----
-title: Scam SMS Detector
-emoji: 📱
-colorFrom: red
-colorTo: gray
-sdk: gradio
-sdk_version: 6.32.0
-app_file: app.py
-pinned: false
----
-
 # 📱 Scam SMS detector
 
-NLP capstone project – *[team name]* – [Name 1], [Name 2], [Name 3]
-
-**Live demo:** [Hugging Face Space link]  ·  **Run locally:** see [How to run](#how-to-run)
+NLP capstone project – *Team 2* – Mahmoud NOUR, Myriam BELLAHCENE, Aya GHERBIA
 
 ## The problem
 
@@ -84,7 +71,6 @@ Fake SMS about a parcel, an unpaid fine, a blocked bank account or a new carte V
 ```bash
 pip install -r requirements.txt
 python app.py              # http://127.0.0.1:7860
-python app.py --share      # temporary public link (while the laptop runs)
 ```
 
 Notebooks: `pip install -r requirements-dev.txt`, then `jupyter notebook` and open `notebooks/` in order (01 → 02 → 03). Model C (embeddings) needs internet the first time, to download ~470 MB from Hugging Face.
@@ -110,13 +96,3 @@ data/
 models/                     trained models (.joblib) and result tables
 scripts/                    scripts that build the real-world test set
 ```
-
-## Who did what
-
-| Member | Main responsibility |
-|---|---|
-| [Name 1] | Data: collection, exploration, cleaning (notebook 01, real-world test set) |
-| [Name 2] | Models and evaluation (notebooks 02 and 03, error analysis) |
-| [Name 3] | Application, README, deployment, slides |
-
-AI assistants were used for parts of the code. Every member can explain and modify every part of the project.
